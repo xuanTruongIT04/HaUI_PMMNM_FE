@@ -1,0 +1,53 @@
+{
+  "name": "medicare",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
+    "lint:fix": "eslint --fix 'src/**/*.{js,jsx,ts,tsx}'"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "@fortawesome/vue-fontawesome": "^3.0.3",
+    "@nuxtjs/auth-next": "5.0.0-1667386184.dfbbb54",
+    "@nuxtjs/axios": "^5.13.6",
+    "@pinia/nuxt": "^0.4.11",
+    "@types/uuid": "^9.0.2",
+    "@vueuse/nuxt": "^10.2.1",
+    "bootstrap": "^5.3.2",
+    "chart.js": "^3.9.1",
+    "cookie-universal-nuxt": "^2.2.2",
+    "date-fns": "^2.30.0",
+    "lodash": "^4.17.21",
+    "mitt": "^3.0.1",
+    "ohmyfetch": "^0.4.21",
+    "pinia": "^2.1.4",
+    "reflect-metadata": "^0.1.13",
+    "uuid": "^9.0.0",
+    "vue-chart-3": "^3.1.8",
+    "vue3-toastify": "^0.1.14"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.39.5",
+    "@nuxt/devtools": "latest",
+    "@nuxtjs/tailwindcss": "^6.8.0",
+    "@types/node": "^18",
+    "eslint": "^8.43.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.2",
+    "nuxt": "^3.6.2",
+    "nuxt-icon": "^0.4.1",
+    "sass": "^1.63.4"
+  },
+  "overrides": {
+    "vue": "latest"
+  },
+  "lint-staged": {
+    "*.{ts,vue}": "npm run lint:fix"
+  }
+}

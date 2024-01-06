@@ -1,0 +1,6 @@
+{
+    "extends": "@antfu",
+    "rules": {
+      "vue/no-useless-template-attributes": "warn"
+    }
+  }
